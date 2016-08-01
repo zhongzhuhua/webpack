@@ -1,0 +1,22 @@
+{
+  "name": "'webpack'",
+  "version": "1.0.0",
+  "description": "webpack study",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "webpack-dev-server --inline --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhongzhuhua/webpack.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "ice",
+  "license": "ISC",
+  "homepage": "https://github.com/zhongzhuhua/webpack#readme",
+  "devDependencies": {
+    "webpack": "^1.13.1"
+  }
+}
