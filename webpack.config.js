@@ -23,7 +23,7 @@ var entryMap = {
 //    main: ['./client/js/main', 'webpack/hot/only-dev-server', 'webpack-dev-server/client?http://localhost:8080']
 //  }
 
-for(key in entryMap) {
+for (key in entryMap) {
   entryMap[key].push('webpack/hot/only-dev-server');
   entryMap[key].push('webpack-dev-server/client?http://localhost:8080');
 };
@@ -45,7 +45,7 @@ module.exports = {
   resolve: {
     //绝对路径
     // root: __dirname + '/dist/js',
-    root: 'E:/webs/webpack/client/js/',
+    root: path.resolve(__dirname, 'client/js'),
     //自动扩展文件后缀名，意味着我们require模块可以省略不写后缀名
     extensions: ['', '.js', '.json', '.scss']
   },

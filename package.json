@@ -17,6 +17,8 @@
   "license": "ISC",
   "homepage": "https://github.com/zhongzhuhua/webpack#readme",
   "devDependencies": {
-    "webpack": "^1.13.1"
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-hot-server": "^0.5.1"
   }
 }
